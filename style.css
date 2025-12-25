@@ -1,0 +1,89 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f3f3f3;
+}
+
+.main-container {
+    background: #222;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+    width: 325px;
+}
+
+.head {
+    color: white;
+    text-align: center;
+    margin-bottom: 26px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.screen {
+    background: #444;
+    height: 80px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 15px;
+    margin-bottom: 20px;
+}
+
+.inside-screen {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.btns-row-1,
+.btns-row-2,
+.btns-row-3,
+.btns-row-4 {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    flex: 1;
+    padding: 15px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #555;
+    color: white;
+    transition: 0.2s;
+    font-size: 20px;
+}
+
+.btn{
+    background: #3d3d3d;
+    color: white;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.btn-yellow{
+    background: rgb(253, 171, 19);
+    color: white;
+}
+
+.btn-yellow:hover{
+    background: rgb(222, 161, 47);
+}
+
+button:hover {
+    background: #777;
+}
+
