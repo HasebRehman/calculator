@@ -101,7 +101,7 @@ The Calculator will start immediately ✅
 
 ## 📖 Learning Outcomes
 
-- This project helps in understanding:
+This project helps in understanding:
 
 - JavaScript event handling
 
